@@ -23,7 +23,7 @@ h2.blocktest {
     width: 16em
 }
 
-html { font-size:150%; }
+html { font-size:120%; }
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
