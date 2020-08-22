@@ -5,6 +5,12 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
 html { font-size:100%; }
 
 /* Media Queries: Tablet Landscape */
