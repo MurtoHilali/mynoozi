@@ -34,6 +34,10 @@ h2.blocktest {
 
 html { font-size:120%; }
 
+img {
+  width: 100%;
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
