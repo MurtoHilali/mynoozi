@@ -11,7 +11,13 @@ P.blocktext {
     width: 16em
 }
 
-H.blocktext {
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em
+}
+
+h2 {
     margin-left: auto;
     margin-right: auto;
     width: 16em
