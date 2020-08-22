@@ -6,7 +6,7 @@ body {
   background-color: #f3f3f3;
 }
 
-div {
+div.border {
   border: 2px solid #848484;
   border-radius: 5px;
   margin-left: auto;
