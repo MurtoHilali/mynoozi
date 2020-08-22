@@ -6,10 +6,7 @@ body {
   background-color: #f3f3f3;
 }
 
-div.blocktest {
-    margin-left: auto;
-    margin-right: auto;
-    width: 16em
+div {
     border: 1px solid #848484;
     border-radius: 5px;
 }
