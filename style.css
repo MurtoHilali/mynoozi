@@ -4,6 +4,8 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   background-color: #f3f3f3;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
 }
 
 P.blocktext {
@@ -12,13 +14,13 @@ P.blocktext {
     width: 16em
 }
 
-h1.blocktest {
+h1 {
     margin-left: auto;
     margin-right: auto;
     width: 16em
 }
 
-h2.blocktest {
+h2 {
     margin-left: auto;
     margin-right: auto;
     width: 16em
