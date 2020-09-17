@@ -12,17 +12,20 @@
    
    
    <body>
-     <div>
-      <img src="noozi_logo.png" alt="Noozi Logo">
-      </div>
-        <div class="border">
-            <h2 style="text-align:center">Roundups</h2>
-            <P class="blocktext" style="text-align:center">My aggregated newsletters.</P>
-            <P class="blocktext" style="text-align:center">☕ <a style="text-align:center" href="24-08-2020.html">August 24 Roundup</a>
-            </P>
-            <P class="blocktext" style="text-align:center">☕ <a style="text-align:center" href="21-08-2020.html">August 21 Roundup</a>
-            </P>
-      </div>
+     <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script>
+        function goPython(){
+            $.ajax({
+              url: "MYSCRIPT.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
    </body>
 
 </html>
