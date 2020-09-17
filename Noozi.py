@@ -14,6 +14,15 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+from flask import request
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        return do_the_login()
+    else:
+        return show_the_login_form()
+
 rcvr = "hilali.murto@gmail.com"
 user = "nooziapp@gmail.com"
 pwd = "Noozi135$"
